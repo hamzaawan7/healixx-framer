@@ -147,6 +147,32 @@ export default function SiteFooter({
   return (
     <footer className="border-t border-zinc-200/70 bg-white">
       <div className="mx-auto max-w-[1283px] px-4 sm:px-6">
+        {/* CTA section above footer */}
+        <section className="py-14 sm:py-16">
+          <div className="flex flex-col gap-8 items-start justify-between md:flex-row md:items-center">
+            <h2 className="max-w-2xl text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950">
+              <span>Speak with one of our health tech experts to discover </span>
+              <span className="text-zinc-500">
+                how Healix can support your wellness journey.
+              </span>
+            </h2>
+
+            <div className="max-w-sm space-y-4 md:text-right">
+              <p className="text-sm sm:text-base leading-7 text-zinc-600">
+                Start your health journey with Healix today. Your health, your data, your power.
+              </p>
+              <div className="flex md:justify-end">
+                <Link
+                  href="/pricing"
+                  className="inline-flex items-center justify-center rounded-full bg-zinc-950 px-6 sm:px-7 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-900 transition-colors"
+                >
+                  Get Started For Free
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="flex flex-col gap-10 py-14">
           <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
             <Link
