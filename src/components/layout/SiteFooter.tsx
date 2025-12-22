@@ -128,7 +128,7 @@ export default function SiteFooter({
     {
       title: "",
       links: [
-        { label: "Help Center", href: "/help" },
+        { label: "Help Center", href: "/appointment" },
         { label: "Contact Us", href: "/contact" },
       ],
     },
