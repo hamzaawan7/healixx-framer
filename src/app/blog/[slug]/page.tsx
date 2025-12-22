@@ -4,11 +4,19 @@ import HomeInsights from "@/components/home/HomeInsights";
 import { blogPosts } from "@/components/blog/blogData";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
 
+export function generateStaticParams() {
+  const slugParams = blogPosts.map((p) => ({ slug: p.slug }));
+  const idParams = blogPosts.map((p) => ({ slug: String(p.id) }));
+  return [...slugParams, ...idParams];
+}
+
+export const dynamicParams = false;
+
 export default async function BlogDetailsPage({ params }: Props) {
-  const { slug } = await params;
+  const { slug } = params;
 
   const bySlug = blogPosts.find((p) => p.slug === slug);
   const asId = Number.isFinite(Number(slug)) ? Number(slug) : null;
