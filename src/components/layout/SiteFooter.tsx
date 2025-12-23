@@ -152,13 +152,13 @@ export default function SiteFooter({
           <div className="flex flex-col gap-8 items-start justify-between md:flex-row md:items-center">
             <h2 className="max-w-2xl text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950">
               <span>Speak with one of our health tech experts to discover </span>
-              <span className="text-zinc-500">
+              <span className="text-zinc-600">
                 how Healix can support your wellness journey.
               </span>
             </h2>
 
             <div className="max-w-sm space-y-4 md:text-right">
-              <p className="text-sm sm:text-base leading-7 text-zinc-600">
+              <p className="text-sm sm:text-base leading-7 text-zinc-700">
                 Start your health journey with Healix today. Your health, your data, your power.
               </p>
               <div className="flex md:justify-end">
@@ -183,11 +183,11 @@ export default function SiteFooter({
               {brand.label}
             </Link>
 
-            <div className="grid grid-cols-2 gap-x-10 gap-y-3 text-sm font-medium text-zinc-700 sm:grid-cols-3">
+            <div className="site-footer-nav grid grid-cols-2 gap-x-10 gap-y-3 text-sm font-semibold text-zinc-900 sm:grid-cols-3">
               {columns.map((col, idx) => (
                 <div key={idx} className="flex flex-col gap-3">
                   {col.title ? (
-                    <div className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-zinc-600">
                       {col.title}
                     </div>
                   ) : null}
@@ -195,7 +195,7 @@ export default function SiteFooter({
                     <Link
                       key={l.href}
                       href={l.href}
-                      className="hover:text-zinc-950 transition-colors"
+                      className="text-zinc-900 hover:text-zinc-950 transition-colors"
                     >
                       {l.label}
                     </Link>
@@ -208,11 +208,11 @@ export default function SiteFooter({
           <div className="h-px w-full bg-zinc-100" />
 
           <div className="flex flex-col-reverse items-start justify-between gap-5 sm:flex-row sm:items-center">
-            <div className="text-sm text-zinc-500">
+            <div className="text-sm text-zinc-600">
               Copyright © {year} {copyrightName}. All Rights Reserved.
             </div>
 
-            <div className="flex items-center gap-3 text-zinc-700">
+            <div className="flex items-center gap-3 text-zinc-800">
               <Link
                 href="#"
                 aria-label="X"

@@ -173,7 +173,7 @@ export default function SiteHeader({
                 <span className="text-lg">{brand.label}</span>
               </Link>
 
-              <nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-zinc-700">
+              <nav className="site-header-nav hidden lg:flex items-center gap-6 text-sm font-semibold text-zinc-950">
                 <div className="relative">
                   <button
                     ref={dropdownBtnRef}
@@ -181,7 +181,7 @@ export default function SiteHeader({
                     onClick={() => setDropdownOpen((v) => !v)}
                     aria-haspopup="menu"
                     aria-expanded={dropdownOpen}
-                    className="inline-flex items-center gap-2 rounded-full px-3 py-2 hover:bg-zinc-100/70 transition-colors"
+                    className="inline-flex items-center gap-2 rounded-full px-3 py-2 text-zinc-950 opacity-100 hover:bg-zinc-100/70 transition-colors"
                   >
                     <span>{allPagesLabel}</span>
                     <svg
@@ -220,7 +220,7 @@ export default function SiteHeader({
                         <div className="grid grid-cols-3 gap-8">
                           {allPagesItems.map((group) => (
                             <div key={group.title} className="min-w-0">
-                              <div className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                              <div className="text-xs font-semibold uppercase tracking-wide text-zinc-700">
                                 {group.title}
                               </div>
                               <div className="mt-3 flex flex-col gap-2">
@@ -229,7 +229,7 @@ export default function SiteHeader({
                                     key={l.href}
                                     href={l.href}
                                     onClick={() => setDropdownOpen(false)}
-                                    className="rounded-lg px-3 py-2 text-sm text-zinc-800 hover:bg-zinc-100 transition-colors"
+                                    className="rounded-lg px-3 py-2 text-sm text-zinc-950 hover:bg-zinc-100 transition-colors"
                                   >
                                     {l.label}
                                   </Link>
@@ -247,7 +247,7 @@ export default function SiteHeader({
                   <Link
                     key={l.href}
                     href={l.href}
-                    className="rounded-full px-3 py-2 hover:bg-zinc-100/70 transition-colors"
+                    className="rounded-full px-3 py-2 text-zinc-950 opacity-100 hover:bg-zinc-100/70 transition-colors"
                   >
                     {l.label}
                   </Link>

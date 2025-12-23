@@ -67,7 +67,7 @@ export default function FeaturesFAQ() {
               <br />
               questions
             </h2>
-            <p className="mt-6 max-w-sm text-base leading-7 text-zinc-600">
+            <p className="mt-6 max-w-sm text-base leading-7 text-zinc-700">
               For any unanswered questions, reach out to our support team via email.
               We&apos;ll respond as soon as possible to assist you.
             </p>
@@ -101,7 +101,7 @@ export default function FeaturesFAQ() {
                         className="overflow-hidden"
                       >
                         <div className="px-4 pb-4">
-                          <p className="text-sm leading-7 text-zinc-600">
+                          <p className="text-sm leading-7 text-zinc-700">
                             {faq.a}
                           </p>
                         </div>

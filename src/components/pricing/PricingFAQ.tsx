@@ -61,7 +61,7 @@ export default function PricingFAQ() {
         <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950">
           Frequently asked questions
         </h2>
-        <p className="mt-4 text-base leading-7 text-zinc-600 max-w-2xl mx-auto">
+        <p className="mt-4 text-base leading-7 text-zinc-700 max-w-2xl mx-auto">
           For any unanswered questions, reach out to our support team via email. We&apos;ll respond
           as soon as possible to assist you.
         </p>
@@ -98,7 +98,7 @@ export default function PricingFAQ() {
                     className="overflow-hidden"
                   >
                     <div className="px-5 pb-5">
-                      <p className="text-sm leading-7 text-zinc-600">{faq.a}</p>
+                      <p className="text-sm leading-7 text-zinc-700">{faq.a}</p>
                     </div>
                   </motion.div>
                 ) : null}
