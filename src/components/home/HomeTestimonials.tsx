@@ -237,7 +237,7 @@ export default function HomeTestimonials({
 
       <div className="mt-14 flex flex-col items-center text-center">
         <h3 className="text-3xl sm:text-5xl font-semibold tracking-tight text-zinc-950 max-w-5xl">
-          Have a success story with Healix? We’d love to{" "}
+          Have a success story with Healthaide? We’d love to{" "}
           <span className="text-zinc-950/50">hear from you!</span>
         </h3>
 

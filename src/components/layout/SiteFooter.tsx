@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type FooterLink = {
@@ -19,33 +20,13 @@ type FooterProps = {
 
 function LogoMark() {
   return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 32 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-      className="text-zinc-950"
-    >
-      <circle cx="9" cy="16" r="6" fill="currentColor" />
-      <circle cx="22" cy="9" r="4" fill="currentColor" opacity="0.95" />
-      <circle cx="24" cy="23" r="5" fill="currentColor" opacity="0.9" />
-      <path
-        d="M13.6 12.8C16.5 10.3 18.9 9 22 9"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        opacity="0.7"
-      />
-      <path
-        d="M14 19.5C17 21.8 19.8 23 24 23"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        opacity="0.7"
-      />
-    </svg>
+    <Image
+      src="/logo.png"
+      alt="Healthaide"
+      width={28}
+      height={28}
+      className="h-7 w-7"
+    />
   );
 }
 
@@ -116,7 +97,7 @@ function SocialIcon({
 }
 
 export default function SiteFooter({
-  brand = { label: "Healix", href: "/" },
+  brand = { label: "Healthaide", href: "/" },
   columns = [
     {
       title: "",
@@ -140,7 +121,7 @@ export default function SiteFooter({
       ],
     },
   ],
-  copyrightName = "Healix",
+  copyrightName = "Healthaide",
 }: FooterProps) {
   const year = new Date().getFullYear();
 
@@ -153,13 +134,13 @@ export default function SiteFooter({
             <h2 className="max-w-2xl text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950">
               <span>Speak with one of our health tech experts to discover </span>
               <span className="text-zinc-600">
-                how Healix can support your wellness journey.
+                how Healthaide can support your wellness journey.
               </span>
             </h2>
 
             <div className="max-w-sm space-y-4 md:text-right">
               <p className="text-sm sm:text-base leading-7 text-zinc-700">
-                Start your health journey with Healix today. Your health, your data, your power.
+                Start your health journey with Healthaide today. Your health, your data, your power.
               </p>
               <div className="flex md:justify-end">
                 <Link

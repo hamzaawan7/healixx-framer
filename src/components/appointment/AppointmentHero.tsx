@@ -130,7 +130,7 @@ export default function AppointmentHero() {
           className="lg:pt-3"
         >
           <h3 className="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-950 max-w-md">
-            Benefits of booking an appointment with Healix
+            Benefits of booking an appointment with Healthaide
           </h3>
 
           <div className="mt-10 grid gap-8 max-w-md">

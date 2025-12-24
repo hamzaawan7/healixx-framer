@@ -19,18 +19,18 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: 2,
-    slug: "using-healix-to-manage-your-diet",
+    slug: "using-healthaide-to-manage-your-diet",
     date: "November 14, 2024",
-    title: "Using Healix to Manage Your Diet",
+    title: "Using Healthaide to Manage Your Diet",
     excerpt:
       "An in-depth look at essential wellness indicators such as hydration, stress levels, and energy balance.",
     image: "https://framerusercontent.com/images/yJLCW8fWMYxYPMrU9al9Tt8lnI.png",
   },
   {
     id: 3,
-    slug: "your-wellness-goals-with-healix",
+    slug: "your-wellness-goals-with-healthaide",
     date: "November 16, 2024",
-    title: "Your Wellness Goals with Healix",
+    title: "Your Wellness Goals with Healthaide",
     excerpt:
       "Exploring key fitness metrics like calorie burn, workout intensity, and recovery rates.",
     image: "https://framerusercontent.com/images/ktXKPrHXemtm3s5BkFq2MEiNhc.png",

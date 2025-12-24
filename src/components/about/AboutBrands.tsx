@@ -46,7 +46,7 @@ export default function AboutBrands() {
         transition={{ duration: 0.35, ease: "easeOut" }}
         className="text-3xl sm:text-5xl font-semibold tracking-tight text-zinc-950 text-center max-w-4xl mx-auto"
       >
-        Healix is redefining how people connect with their health data—
+        Healthaide is redefining how people connect with their health data—
         <span className="text-zinc-950/50">empowering them to make informed decisions every day.</span>
       </motion.h2>
 

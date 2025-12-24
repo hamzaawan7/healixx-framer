@@ -13,7 +13,7 @@ export default function FeaturesPage() {
       <FeaturesWhyChoose />
       <HomeFeatures
         heading="Features designed for your health journey"
-        description="Healix is designed to help you track and understand your health to make informed decisions for a healthier lifestyle."
+        description="Healthaide is designed to help you track and understand your health to make informed decisions for a healthier lifestyle."
       />
       <FeaturesTrustedTestimonials />
       <FeaturesFAQ />

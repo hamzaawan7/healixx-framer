@@ -18,26 +18,26 @@ type Props = {
 const cards: FeatureCard[] = [
   {
     title: "Get answers to your health questions",
-    description: "Healix encourages users to stay active.",
+    description: "Healthaide encourages users to stay active.",
     imageSrc:
       "https://framerusercontent.com/images/cl4taqzWhoQRsRfcVDdFNYQ6E.png",
   },
   {
     title: "Get answers to your health questions",
-    description: "Healix encourages users to stay active.",
+    description: "Healthaide encourages users to stay active.",
     imageSrc:
       "https://framerusercontent.com/images/4t9GS4DAR9pDQAoyOtsuWlMBE.png",
   },
   {
     title: "Get answers to your health questions",
-    description: "Healix encourages users to stay active.",
+    description: "Healthaide encourages users to stay active.",
     imageSrc: "https://framerusercontent.com/images/sNbRCrZ7IW5IzvwfYbsTvPk.png",
     imageSrcDesktop:
       "https://framerusercontent.com/images/tKSEDdNp2Q3Olv5NKqa6X8f0k.png",
   },
   {
     title: "Get answers to your health questions",
-    description: "Healix encourages users to stay active.",
+    description: "Healthaide encourages users to stay active.",
     imageSrc:
       "https://framerusercontent.com/images/3NIJipihll5Gq0XC8umIY2uao0.png",
   },

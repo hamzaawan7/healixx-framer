@@ -72,7 +72,7 @@ export default async function BlogDetailsPage({ params }: Props) {
         <div className="mx-auto max-w-3xl py-12">
           <div className="space-y-6 text-sm leading-7 text-zinc-600">
             <p>
-              Healix helps you translate your health data into everyday actions. This article expands
+              Healthaide helps you translate your health data into everyday actions. This article expands
               on the topic and offers practical steps you can apply right away.
             </p>
             <p>

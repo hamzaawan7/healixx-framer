@@ -10,11 +10,11 @@ type FAQ = {
 
 const faqs: FAQ[] = [
   {
-    q: "How secure is my data with Healix?",
-    a: "Your privacy is our top priority. Healix uses advanced encryption to protect your data, and you have full control over.",
+    q: "How secure is my data with Healthaide?",
+    a: "Your privacy is our top priority. Healthaide uses advanced encryption to protect your data, and you have full control over.",
   },
   {
-    q: "Can I use Healix without any wearable devices?",
+    q: "Can I use Healthaide without any wearable devices?",
     a: "Yes. You can still track and manage key wellness habits and metrics even without a wearable device.",
   },
   {
@@ -26,7 +26,7 @@ const faqs: FAQ[] = [
     a: "Absolutely. You can change plans anytime from your account settings.",
   },
   {
-    q: "Does Healix offer a free trial?",
+    q: "Does Healthaide offer a free trial?",
     a: "Yes, you can get started with a free plan and explore key features before upgrading.",
   },
 ];

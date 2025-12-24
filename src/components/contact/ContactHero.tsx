@@ -42,7 +42,7 @@ export default function ContactHero() {
             transition={{ duration: 0.35, ease: "easeOut", delay: 0.05 }}
             className="mt-6 text-base leading-7 text-zinc-600 max-w-md"
           >
-            Want to learn more about Healix, our support team is ready to help.
+            Want to learn more about Healthaide, our support team is ready to help.
           </motion.p>
         </div>
 

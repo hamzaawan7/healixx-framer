@@ -13,9 +13,9 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    title: "Healix has been a game-changer for me.",
+    title: "Healthaide has been a game-changer for me.",
     quote:
-      "I can now track my vitals and sleep patterns daily, and Healix has been a game-changer for me it’s helped me build healthier habits!",
+      "I can now track my vitals and sleep patterns daily, and Healthaide has been a game-changer for me it’s helped me build healthier habits!",
     name: "Brooklyn Simmons",
     role: "Product Manager",
     avatar: "https://framerusercontent.com/images/TB8ARRgbrwfOQt4BIe12CNL6LA.png",

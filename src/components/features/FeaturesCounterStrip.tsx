@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function FeaturesCounterStrip({
-  heading = "Healix has everything you need to monitor, track, and improve health.",
+  heading = "Healthaide has everything you need to monitor, track, and improve health.",
   description =
     "We believe in a future where everyone can take control of their wellness with tools that guide, support, and inspire daily healthy habits.",
 }: Props) {

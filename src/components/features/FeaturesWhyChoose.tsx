@@ -38,7 +38,7 @@ export default function FeaturesWhyChoose() {
         transition={{ duration: 0.35, ease: "easeOut" }}
         className="text-3xl sm:text-4xl font-semibold tracking-tight text-zinc-950"
       >
-        Why Choose Healix?
+        Why Choose Healthaide?
       </motion.h2>
 
       <div className="mt-10 grid gap-6 lg:grid-cols-3">

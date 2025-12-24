@@ -33,8 +33,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Healix",
+  title: "Healthaide",
   description: "Where care meets innovation",
+  icons: {
+    icon: [{ url: "/logo.png", type: "image/png" }],
+    shortcut: [{ url: "/logo.png", type: "image/png" }],
+    apple: [{ url: "/logo.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({

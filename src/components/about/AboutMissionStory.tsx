@@ -14,7 +14,7 @@ export default function AboutMissionStory() {
           className="grid gap-12 lg:grid-cols-2 lg:gap-20"
         >
           <h2 className="text-3xl sm:text-5xl font-semibold tracking-tight text-zinc-950 max-w-xl">
-            At Healix, we’re dedicated
+            At Healthaide, we’re dedicated
             <br />
             to empower individuals
             <br />
@@ -48,14 +48,14 @@ export default function AboutMissionStory() {
           className="grid gap-12 lg:grid-cols-2 lg:gap-20"
         >
           <h2 className="text-3xl sm:text-5xl font-semibold tracking-tight text-zinc-950 max-w-xl">
-            Healix began with a simple idea
+            Healthaide began with a simple idea
           </h2>
 
           <div>
             <div className="text-sm font-semibold text-zinc-950">Our Story</div>
             <div className="mt-4 space-y-6 max-w-md">
               <p className="text-sm leading-7 text-zinc-600">
-                Healix was born to fill that gap, helping people turn their health data into
+                Healthaide was born to fill that gap, helping people turn their health data into
                 meaningful actions that improve their quality of life.
               </p>
               <p className="text-sm leading-7 text-zinc-600">

@@ -17,11 +17,11 @@ export default function Home() {
         ctaHref="/pricing"
       />
 
-      <HomeBenefits heading="Why choose Healix for health tracking & monitoring?" />
+      <HomeBenefits heading="Why choose Healthaide for health tracking & monitoring?" />
 
       <HomeFeatures
         heading="Features designed for your health journey"
-        description="Healix is designed to help you track and understand your health to make informed decisions for a healthier lifestyle."
+        description="Healthaide is designed to help you track and understand your health to make informed decisions for a healthier lifestyle."
       />
 
       <HomeTips />
@@ -29,7 +29,7 @@ export default function Home() {
       <HomeSteps />
 
       <HomeTestimonials
-        heading="See how Healix has transformed lives through personalized health tracking and support"
+        heading="See how Healthaide has transformed lives through personalized health tracking and support"
         ctaLabel="Share your video"
         ctaHref="/contact"
       />

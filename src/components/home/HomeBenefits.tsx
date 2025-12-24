@@ -19,21 +19,21 @@ type Props = {
 const defaultItems: Benefit[] = [
   {
     title: "Enhanced health awareness",
-    description: "Healix encourages users to stay active through custom goals.",
+    description: "Healthaide encourages users to stay active through custom goals.",
     iconSrc:
       "https://framerusercontent.com/images/Ob2seBZcyIMDMk2KWTvjhy7tRMQ.svg",
     href: "/features",
   },
   {
     title: "Boost in physical activity levels",
-    description: "Healix is designed to help track and understand lifestyle.",
+    description: "Healthaide is designed to help track and understand lifestyle.",
     iconSrc:
       "https://framerusercontent.com/images/eSQyPlznMkAqrWQHrH7TXHokZQ.svg",
     href: "/features",
   },
   {
     title: "Faster response to health changes",
-    description: "Healix is designed to help track and understand lifestyle.",
+    description: "Healthaide is designed to help track and understand lifestyle.",
     iconSrc:
       "https://framerusercontent.com/images/eSQyPlznMkAqrWQHrH7TXHokZQ.svg",
     href: "/features",

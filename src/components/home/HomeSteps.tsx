@@ -14,7 +14,7 @@ const steps: Step[] = [
   {
     step: "01",
     title: "Download the app and connect your devices",
-    description: "For access sync Healix with your health wearables for updates.",
+    description: "For access sync Healthaide with your health wearables for updates.",
     href: "/features",
   },
   {

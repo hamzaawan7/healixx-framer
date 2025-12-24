@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function ContactInfo() {
   return (
     <section className="mx-auto max-w-[1283px] px-4 sm:px-6 pt-16 sm:pt-20 pb-10">
@@ -9,7 +7,7 @@ export default function ContactInfo() {
             General Inquiries
           </h3>
           <p className="mt-4 text-base leading-7 text-zinc-600 max-w-md">
-            Interested in learning more about TaskHub? Our sales team is here to provide you with
+            Interested in learning more about Healthaide? Our team is here to provide you with
             a tailored demo.
           </p>
 
@@ -18,28 +16,28 @@ export default function ContactInfo() {
               <div>
                 <div className="text-sm font-semibold text-zinc-950">Business &amp; Partnerships</div>
                 <div className="mt-3 text-sm text-zinc-600">
-                  <Link
-                    href="mailto:partnerships@healix.com"
+                  <a
+                    href="mailto:partnerships@healthaide.io"
                     target="_blank"
                     rel="noopener"
                     className="hover:underline"
                   >
-                    partnerships@healix.com
-                  </Link>
+                    partnerships@healthaide.io
+                  </a>
                 </div>
               </div>
 
               <div>
                 <div className="text-sm font-semibold text-zinc-950">Press &amp; Media</div>
                 <div className="mt-3 text-sm text-zinc-600">
-                  <Link
-                    href="mailto:media@healix.com"
+                  <a
+                    href="mailto:media@healthaide.io"
                     target="_blank"
                     rel="noopener"
                     className="hover:underline"
                   >
-                    media@healix.com
-                  </Link>
+                    media@healthaide.io
+                  </a>
                 </div>
               </div>
             </div>
@@ -51,7 +49,7 @@ export default function ContactInfo() {
             Customer Support
           </h3>
           <p className="mt-4 text-base leading-7 text-zinc-600 max-w-md">
-            We&apos;re here to help! Whether you have a question about TaskHub&apos;s features, need
+            We&apos;re here to help! Whether you have a question about Healthaide&apos;s features, need
             assistance.
           </p>
 
@@ -60,28 +58,28 @@ export default function ContactInfo() {
               <div>
                 <div className="text-sm font-semibold text-zinc-950">Customer Support Email</div>
                 <div className="mt-3 text-sm text-zinc-600">
-                  <Link
-                    href="mailto:support@healix.com"
+                  <a
+                    href="mailto:support@healthaide.io"
                     target="_blank"
                     rel="noopener"
                     className="hover:underline"
                   >
-                    support@healix.com
-                  </Link>
+                    support@healthaide.io
+                  </a>
                 </div>
               </div>
 
               <div>
                 <div className="text-sm font-semibold text-zinc-950">Phone Support</div>
                 <div className="mt-3 text-sm text-zinc-600">
-                  <Link
+                  <a
                     href="tel:+18001234567"
                     target="_blank"
                     rel="noopener"
                     className="hover:underline"
                   >
                     +1 (800) 123-4567
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
