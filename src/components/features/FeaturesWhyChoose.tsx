@@ -51,7 +51,7 @@ export default function FeaturesWhyChoose() {
             transition={{ duration: 0.35, ease: "easeOut", delay: idx * 0.05 }}
             className="rounded-[40px] bg-[#f0f5f6] p-8 sm:p-10"
           >
-            <div className="text-2xl font-semibold tracking-tight text-zinc-950">
+            <div className="text-2xl font-bold tracking-tight text-zinc-950">
               {item.title}
             </div>
 

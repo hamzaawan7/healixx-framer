@@ -1,8 +1,8 @@
 export default function TermsContent() {
   return (
     <div className="text-zinc-950">
-      <div className="text-sm font-semibold text-zinc-950">Healthaide LLC</div>
-      <h2 className="mt-4 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <div className="text-sm font-bold text-zinc-950">Healthaide LLC</div>
+      <h2 className="mt-4 text-2xl sm:text-3xl font-bold tracking-tight">
         Payment Plan Terms &amp; Conditions
       </h2>
 
@@ -24,7 +24,7 @@ export default function TermsContent() {
         obligations are structured, billed, and collected.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         1. Payment Plan Overview
       </h3>
       <p className="mt-6 text-base leading-8 text-zinc-600">
@@ -60,7 +60,7 @@ export default function TermsContent() {
         each of which is due as described below.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         2. Payment Schedule and Automatic Payments
       </h3>
       <p className="mt-6 text-base leading-8 text-zinc-600">
@@ -68,14 +68,14 @@ export default function TermsContent() {
       </p>
 
       <p className="mt-6 text-base leading-8 text-zinc-600">
-        <strong className="font-semibold text-zinc-950">First Payment: </strong>
+        <strong className="font-bold text-zinc-950">First Payment: </strong>
         The first installment - consisting of one-third (1/3) of the total cart price plus one-third
         (1/3) of the Payment Plan Fee - will be charged to your designated payment method on the date
         of purchase when you enroll in the Plan.
       </p>
 
       <p className="mt-6 text-base leading-8 text-zinc-600">
-        <strong className="font-semibold text-zinc-950">Second Payment: </strong>
+        <strong className="font-bold text-zinc-950">Second Payment: </strong>
         The second installment - consisting of one-third (1/3) of the total cart price plus one-third
         (1/3) of the Payment Plan Fee - will be automatically charged to your designated payment method
         approximately one (1) month from the date of the initial purchase, on or about the same calendar
@@ -84,7 +84,7 @@ export default function TermsContent() {
       </p>
 
       <p className="mt-6 text-base leading-8 text-zinc-600">
-        <strong className="font-semibold text-zinc-950">Third Payment: </strong>
+        <strong className="font-bold text-zinc-950">Third Payment: </strong>
         The third and final installment - consisting of one-third (1/3) of the total cart price plus
         one-third (1/3) of the Payment Plan Fee - will be automatically charged to your designated payment
         method approximately two (2) months from the date of the initial purchase, on or about the same
@@ -97,7 +97,7 @@ export default function TermsContent() {
         unless and until you update your payment method or your Plan is paid in full.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         3. Authorization for Automatic Payments
       </h3>
       <p className="mt-6 text-base leading-8 text-zinc-600">
@@ -131,11 +131,11 @@ export default function TermsContent() {
         credit are available on your designated payment method on each scheduled payment date.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         4. Non-Payment, Late Payment, and Default
       </h3>
 
-      <h4 className="mt-8 text-lg font-semibold text-zinc-950">A. Failed or Late Payments</h4>
+      <h4 className="mt-8 text-lg font-bold text-zinc-950">A. Failed or Late Payments</h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
         If any scheduled payment under the Plan is not successfully processed when due (for example,
         due to insufficient funds, expired card, or declined transaction), your account may be deemed
@@ -155,7 +155,7 @@ export default function TermsContent() {
         installment amount that remains outstanding.
       </p>
 
-      <h4 className="mt-8 text-lg font-semibold text-zinc-950">B. Default</h4>
+      <h4 className="mt-8 text-lg font-bold text-zinc-950">B. Default</h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
         If you fail to make any payment under the Plan when due, and such failure continues beyond a
         reasonable grace or cure period (if any) that Healthaide may elect to allow (which shall be
@@ -183,11 +183,11 @@ export default function TermsContent() {
         or other reasonable means in connection with any past due amounts or default.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         5. Cancellation and Refunds
       </h3>
 
-      <h4 className="mt-8 text-lg font-semibold text-zinc-950">
+      <h4 className="mt-8 text-lg font-bold text-zinc-950">
         A. Cancellation of Subscription or Services
       </h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
@@ -204,7 +204,7 @@ export default function TermsContent() {
         using or consuming the products.
       </p>
 
-      <h4 className="mt-8 text-lg font-semibold text-zinc-950">B. Refunds</h4>
+      <h4 className="mt-8 text-lg font-bold text-zinc-950">B. Refunds</h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
         All purchases made using the Healthaide Payment Plan are subject to Healthaide&rsquo;s
         then-current refund, return, and cancellation policies, as set forth in the Terms of Use
@@ -234,7 +234,7 @@ export default function TermsContent() {
         </li>
       </ul>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         6. Modification and Termination of the Payment Plan Program
       </h3>
       <p className="mt-6 text-base leading-8 text-zinc-600">
@@ -262,7 +262,7 @@ export default function TermsContent() {
         between you and Healthaide.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         7. Consent and Acknowledgment
       </h3>
       <p className="mt-6 text-base leading-8 text-zinc-600">
@@ -302,7 +302,7 @@ export default function TermsContent() {
         your purchase.
       </p>
 
-      <h3 className="mt-12 text-2xl sm:text-3xl font-semibold tracking-tight">
+      <h3 className="mt-12 text-2xl sm:text-3xl font-bold tracking-tight">
         8. Governing Law
       </h3>
       <p className="mt-6 text-base leading-8 text-zinc-600">

@@ -73,7 +73,7 @@ export default function PricingComparison() {
               "Weight Management Plan",
             ].map((name) => (
               <div key={name} className="text-center">
-                <div className="text-sm font-semibold text-zinc-950">{name}</div>
+                <div className="text-sm font-bold text-zinc-950">{name}</div>
                 <Link
                   href="/contact"
                   className="mt-4 inline-flex h-10 items-center justify-center rounded-full border border-zinc-950/20 bg-white px-6 text-sm font-semibold text-zinc-950 hover:bg-zinc-50 transition-colors"

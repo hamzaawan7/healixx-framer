@@ -157,7 +157,7 @@ export default function PricingHero() {
             <div className="p-8 sm:p-10">
               <div className="flex items-start justify-between gap-4 border-b border-zinc-950/10 pb-6">
                 <div className="flex items-center gap-3">
-                  <h4 className="text-lg font-semibold text-zinc-950">{p.name}</h4>
+                  <h4 className="text-lg font-bold text-zinc-950">{p.name}</h4>
                   {p.badge ? (
                     <div className="rounded-full bg-[#ffce8a] px-4 py-2 text-xs font-semibold text-zinc-950">
                       {p.badge}

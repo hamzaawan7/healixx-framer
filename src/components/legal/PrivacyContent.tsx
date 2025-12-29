@@ -1,7 +1,7 @@
 export default function PrivacyContent() {
   return (
     <div className="text-zinc-950">
-      <h3 className="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-950">
+      <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-950">
         Introduction
       </h3>
       <p className="mt-4 text-base leading-8 text-zinc-600">
@@ -40,7 +40,7 @@ export default function PrivacyContent() {
         this Privacy Policy.
       </p>
 
-      <h4 className="mt-10 text-lg font-semibold text-zinc-950">
+      <h4 className="mt-10 text-lg font-bold text-zinc-950">
         Notice to Users Outside the United States
       </h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
@@ -56,10 +56,10 @@ export default function PrivacyContent() {
         the Website. Further, your jurisdiction may afford different or more limited protections regarding the privacy of your data than those provided under U.S. or Texas law.  
         BY USING OR ACCESSING THE WEBSITE, YOU ARE ACCEPTING AND AGREEING TO THE PRACTICES DESCRIBED IN THIS PRIVACY POLICY.
       </p>
-      <h3 className="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-950">
+      <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-950">
        GATHERING, USE, AND DISCLOSURE OF NON-PERSONALLY-IDENTIFYING INFORMATION
       </h3>
-      <h4 className="mt-10 text-lg font-semibold text-zinc-950">
+      <h4 className="mt-10 text-lg font-bold text-zinc-950">
         Users of the Website Generally
       </h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
@@ -76,7 +76,7 @@ export default function PrivacyContent() {
         From time to time, Healthaide may release Non-Personally Identifying Information in the aggregate, such as by publishing reports on usage trends or providing aggregated statistics
         to partners, advertisers, or other third parties.
       </p>
-      <h4 className="mt-10 text-lg font-semibold text-zinc-950">
+      <h4 className="mt-10 text-lg font-bold text-zinc-950">
         Web Cookies
       </h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
@@ -101,7 +101,7 @@ export default function PrivacyContent() {
            https://www.consumer.ftc.gov/articles/0042-online-tracking
         </a>
       </p>
-      <h4 className="mt-10 text-lg font-semibold text-zinc-950">
+      <h4 className="mt-10 text-lg font-bold text-zinc-950">
         Flash Cookies
       </h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">
@@ -109,7 +109,7 @@ export default function PrivacyContent() {
        Similar to standard cookies, Flash cookies can retain user settings and actions and may enable a website to recognize your browser or device. Flash cookies are not managed by the
        same browser settings used for regular cookies. Managing Flash cookies typically requires separate settings or tools provided by Adobe or your browser.
       </p>
-      <h4 className="mt-10 text-lg font-semibold text-zinc-950">
+      <h4 className="mt-10 text-lg font-bold text-zinc-950">
         Web Beacons
       </h4>
       <p className="mt-4 text-base leading-8 text-zinc-600">

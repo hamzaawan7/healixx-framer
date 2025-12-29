@@ -70,8 +70,8 @@ export default function AboutTeam() {
               </div>
             </div>
 
-            <div className="mt-6">
-              <div className="text-base font-semibold text-zinc-950">{m.name}</div>
+            <div className="mt-6 text-center">
+              <div className="text-base font-bold text-zinc-950">{m.name}</div>
               <div className="mt-1 text-sm text-zinc-600">{m.role}</div>
             </div>
           </motion.div>

@@ -59,8 +59,8 @@ export default function HomeSteps() {
             <div className="p-8 sm:p-10">
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-baseline gap-2">
-                  <div className="text-lg font-semibold text-zinc-950">Step</div>
-                  <div className="text-lg font-semibold text-zinc-950/50">
+                  <div className="text-lg font-bold text-zinc-950">Step</div>
+                  <div className="text-lg font-bold text-zinc-950">
                     {s.step}
                   </div>
                 </div>
