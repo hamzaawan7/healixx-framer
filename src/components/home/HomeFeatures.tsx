@@ -67,7 +67,7 @@ export default function HomeFeatures({ heading, description }: Props) {
         </motion.p>
       </div>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-2">
+      <div className="mt-10 grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
         {cards.map((c, idx) => (
           <motion.div
             key={idx}
@@ -75,11 +75,15 @@ export default function HomeFeatures({ heading, description }: Props) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.35, ease: "easeOut", delay: idx * 0.04 }}
-            className="rounded-[40px] bg-[#f0f5f6] p-8 sm:p-10"
+            className="rounded-[40px] bg-[#f0f5f6] p-6 sm:p-8 lg:p-10"
           >
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg font-semibold text-zinc-950">{c.title}</h4>
-              <p className="text-sm text-zinc-600">{c.description}</p>
+              <h4 className="text-xl font-bold tracking-tight text-zinc-950 leading-snug">
+                {c.title}
+              </h4>
+              <p className="text-sm font-medium leading-6 text-zinc-800">
+                {c.description}
+              </p>
             </div>
 
             <div className="mt-8 overflow-hidden rounded-[32px] bg-white">

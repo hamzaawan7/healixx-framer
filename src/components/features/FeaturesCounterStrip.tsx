@@ -21,10 +21,10 @@ export default function FeaturesCounterStrip({
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.35, ease: "easeOut" }}
         >
-          <h3 className="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-950 max-w-lg">
+          <h3 className="text-2xl sm:text-4xl font-bold tracking-tight text-zinc-950 max-w-lg leading-[1.1]">
             {heading}
           </h3>
-          <p className="mt-4 max-w-lg text-base leading-7 text-zinc-600">
+          <p className="mt-6 max-w-lg text-base sm:text-lg leading-7 text-zinc-800">
             {description}
           </p>
         </motion.div>
@@ -40,7 +40,7 @@ export default function FeaturesCounterStrip({
             <div className="text-4xl sm:text-5xl font-semibold tracking-tight text-zinc-950">
               10000+
             </div>
-            <div className="mt-4 border-t border-zinc-950/10 pt-4 text-sm leading-7 text-zinc-600">
+            <div className="mt-4 border-t border-zinc-950/10 pt-4 text-sm leading-7 text-zinc-800 font-medium">
               Thousands of active users worldwide
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function FeaturesCounterStrip({
             <div className="text-4xl sm:text-5xl font-semibold tracking-tight text-zinc-950">
               80%
             </div>
-            <div className="mt-4 border-t border-zinc-950/10 pt-4 text-sm leading-7 text-zinc-600">
+            <div className="mt-4 border-t border-zinc-950/10 pt-4 text-sm leading-7 text-zinc-800 font-medium">
               User Satisfaction rate increased
             </div>
           </div>

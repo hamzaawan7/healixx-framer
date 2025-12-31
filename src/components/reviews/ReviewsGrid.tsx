@@ -101,7 +101,7 @@ function Stars() {
 export default function ReviewsGrid() {
   return (
     <section className="mx-auto max-w-[1283px] px-4 sm:px-6 pt-14 sm:pt-16">
-      <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
+      <div className="grid gap-12 sm:grid-cols-1 lg:grid-cols-2 lg:gap-20">
         {reviews.map((r, idx) => (
           <motion.article
             key={r.title + r.name}

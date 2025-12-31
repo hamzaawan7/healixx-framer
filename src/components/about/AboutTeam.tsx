@@ -55,7 +55,7 @@ export default function AboutTeam() {
         Meet the team
       </motion.h2>
 
-      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {members.map((m, idx) => (
           <motion.div
             key={m.name}

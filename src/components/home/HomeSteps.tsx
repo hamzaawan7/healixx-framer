@@ -46,7 +46,7 @@ export default function HomeSteps() {
         </h2>
       </motion.div>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
         {steps.map((s, idx) => (
           <motion.div
             key={s.step}
@@ -56,7 +56,7 @@ export default function HomeSteps() {
             transition={{ duration: 0.35, ease: "easeOut", delay: idx * 0.05 }}
             className="rounded-[40px] bg-[#f0f5f6] overflow-hidden"
           >
-            <div className="p-8 sm:p-10">
+            <div className="p-6 sm:p-8 lg:p-10">
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-baseline gap-2">
                   <div className="text-lg font-bold text-zinc-950">Step</div>
@@ -66,16 +66,16 @@ export default function HomeSteps() {
                 </div>
                 <Link
                   href={s.href}
-                  className="inline-flex h-10 items-center justify-center rounded-full border border-zinc-950/15 bg-transparent px-5 text-sm font-semibold text-zinc-700 hover:bg-white/40 transition-colors"
+                  className="inline-flex h-10 items-center justify-center rounded-full border border-zinc-950/15 bg-white px-5 text-sm font-bold text-zinc-950 hover:bg-zinc-50 transition-all hover:scale-[1.02] active:scale-[0.98]"
                 >
                   Explore
                 </Link>
               </div>
 
-              <h4 className="mt-6 text-lg font-semibold text-zinc-950">
+              <h4 className="mt-6 text-lg font-bold text-zinc-950">
                 {s.title}
               </h4>
-              <p className="mt-3 text-sm leading-7 text-zinc-600">{s.description}</p>
+              <p className="mt-3 text-sm leading-7 text-zinc-800 font-medium">{s.description}</p>
             </div>
           </motion.div>
         ))}

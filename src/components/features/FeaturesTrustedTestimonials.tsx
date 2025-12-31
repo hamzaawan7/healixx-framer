@@ -63,7 +63,7 @@ export default function FeaturesTrustedTestimonials() {
         Trusted by thousands worldwide
       </motion.h2>
 
-      <div className="mt-12 grid gap-10 lg:grid-cols-2">
+      <div className="mt-12 grid gap-10 sm:grid-cols-1 lg:grid-cols-2">
         {testimonials.map((t, idx) => (
           <motion.div
             key={t.name}
@@ -73,7 +73,7 @@ export default function FeaturesTrustedTestimonials() {
             transition={{ duration: 0.35, ease: "easeOut", delay: idx * 0.05 }}
             className="rounded-[40px] bg-white"
           >
-            <div className="p-8 sm:p-10">
+            <div className="p-6 sm:p-8 lg:p-10">
               <Stars />
               <div className="mt-6 border-t border-zinc-950/10 pt-6">
                 <h4 className="text-lg font-semibold text-zinc-950">{t.title}</h4>

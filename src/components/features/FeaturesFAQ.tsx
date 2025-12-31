@@ -57,17 +57,17 @@ export default function FeaturesFAQ() {
 
   return (
     <section className="mx-auto max-w-[1283px] px-4 sm:px-6 pt-16 sm:pt-20 pb-20">
-      <div className="rounded-[40px] bg-[#f0f5f6] p-8 sm:p-12">
-        <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
+      <div className="rounded-[40px] bg-[#f0f5f6] p-6 sm:p-8 lg:p-12">
+        <div className="grid gap-10 sm:grid-cols-1 lg:grid-cols-2 lg:items-start">
           <div>
-            <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-zinc-950">
+            <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-zinc-950 leading-[1.1]">
               Frequently
               <br />
               asked
               <br />
               questions
             </h2>
-            <p className="mt-6 max-w-sm text-base leading-7 text-zinc-700">
+            <p className="mt-6 max-w-sm text-base leading-7 text-zinc-800 font-medium">
               For any unanswered questions, reach out to our support team via email.
               We&apos;ll respond as soon as possible to assist you.
             </p>
@@ -83,7 +83,7 @@ export default function FeaturesFAQ() {
                     onClick={() => setOpenIndex(open ? -1 : idx)}
                     className="w-full rounded-2xl px-4 py-4 text-left flex items-center justify-between gap-6"
                   >
-                    <span className="text-sm sm:text-base font-semibold text-zinc-950">
+                    <span className="text-sm sm:text-base font-bold text-zinc-950">
                       {faq.q}
                     </span>
                     <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white/60">
@@ -101,7 +101,7 @@ export default function FeaturesFAQ() {
                         className="overflow-hidden"
                       >
                         <div className="px-4 pb-4">
-                          <p className="text-sm leading-7 text-zinc-700">
+                          <p className="text-sm leading-7 text-zinc-800 font-medium">
                             {faq.a}
                           </p>
                         </div>

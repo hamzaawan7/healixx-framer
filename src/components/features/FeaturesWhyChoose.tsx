@@ -41,7 +41,7 @@ export default function FeaturesWhyChoose() {
         Why Choose Healthaide?
       </motion.h2>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
         {items.map((item, idx) => (
           <motion.div
             key={item.title}
@@ -49,18 +49,18 @@ export default function FeaturesWhyChoose() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.35, ease: "easeOut", delay: idx * 0.05 }}
-            className="rounded-[40px] bg-[#f0f5f6] p-8 sm:p-10"
+            className="rounded-[40px] bg-[#f0f5f6] p-6 sm:p-8 lg:p-10"
           >
-            <div className="text-2xl font-bold tracking-tight text-zinc-950">
+            <div className="text-2xl font-bold tracking-tight text-zinc-950 uppercase sm:text-3xl">
               {item.title}
             </div>
 
-            <h4 className="mt-20 text-base sm:text-lg font-semibold text-zinc-950 max-w-xs">
+            <h4 className="mt-20 text-lg sm:text-xl font-bold text-zinc-950 max-w-xs leading-snug">
               {item.headline}
             </h4>
 
             <div className="mt-6 border-t border-zinc-950/10 pt-6">
-              <p className="text-sm leading-7 text-zinc-600">{item.description}</p>
+              <p className="text-sm leading-7 text-zinc-800 font-medium">{item.description}</p>
             </div>
           </motion.div>
         ))}

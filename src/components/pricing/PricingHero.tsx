@@ -141,7 +141,7 @@ export default function PricingHero() {
 
       <Switcher billing={billing} onChange={setBilling} />
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
         {resolvedPlans.map((p, idx) => (
           <motion.div
             key={p.name}
@@ -154,7 +154,7 @@ export default function PricingHero() {
               (p.highlighted ? "bg-[#cbefff]/40" : "")
             }
           >
-            <div className="p-8 sm:p-10">
+            <div className="p-6 sm:p-8 lg:p-10">
               <div className="flex items-start justify-between gap-4 border-b border-zinc-950/10 pb-6">
                 <div className="flex items-center gap-3">
                   <h4 className="text-lg font-bold text-zinc-950">{p.name}</h4>

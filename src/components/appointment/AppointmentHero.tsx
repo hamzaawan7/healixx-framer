@@ -46,7 +46,7 @@ export default function AppointmentHero() {
           }}
           className="grid gap-5"
         >
-          <div className="grid gap-5 sm:grid-cols-2">
+          <div className="grid gap-5 sm:grid-cols-1 md:grid-cols-2">
             <label className="grid gap-2 rounded-2xl border border-zinc-200 bg-[#f7fafb] px-5 py-4">
               <span className="text-xs font-semibold text-zinc-950">Full name *</span>
               <input

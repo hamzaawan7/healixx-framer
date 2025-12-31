@@ -24,7 +24,7 @@ export default function HomeInsights({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.35, ease: "easeOut" }}
-        className="text-3xl sm:text-5xl font-semibold tracking-tight text-zinc-950 text-center max-w-4xl mx-auto"
+        className="text-3xl sm:text-5xl font-bold tracking-tight text-zinc-950 text-center max-w-4xl mx-auto leading-[1.1]"
       >
         {heading} <span className="text-zinc-950/50">{highlighted}</span>
       </motion.h2>
@@ -84,10 +84,10 @@ export default function HomeInsights({
               </Link>
             </div>
 
-            <h4 className="mt-5 text-lg font-semibold text-zinc-950">
+            <h4 className="mt-5 text-lg font-bold text-zinc-950">
               {cardTitle}
             </h4>
-            <p className="mt-2 text-sm leading-7 text-zinc-600">
+            <p className="mt-2 text-sm leading-7 text-zinc-800 font-medium">
               {cardDescription}
             </p>
 

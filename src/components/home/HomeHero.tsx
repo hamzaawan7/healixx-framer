@@ -50,24 +50,24 @@ export default function HomeHero({
               Reliable Solutions for Everyday Care
             </div>
 
-            <h1 className="mt-6 text-white text-4xl sm:text-6xl font-semibold tracking-tight leading-[1.05]">
+            <h1 className="mt-6 text-white text-4xl sm:text-6xl font-bold tracking-tight leading-[1.1]">
               {title}
             </h1>
 
-            <p className="mt-5 text-base sm:text-lg leading-7 sm:leading-8 text-white/85 max-w-xl">
+            <p className="mt-5 text-base sm:text-lg leading-7 sm:leading-8 text-white font-medium max-w-xl opacity-90">
               {description}
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link
                 href={ctaHref}
-                className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-zinc-950 shadow-sm shadow-black/10 hover:bg-zinc-100 transition-colors"
+                className="inline-flex h-12 items-center justify-center rounded-full bg-white px-8 text-sm font-bold text-zinc-950 shadow-lg shadow-black/20 hover:bg-zinc-100 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 {ctaLabel}
               </Link>
               <Link
                 href="/features"
-                className="inline-flex h-12 items-center justify-center rounded-full border border-white/25 bg-white/10 px-6 text-sm font-semibold text-white hover:bg-white/15 transition-colors backdrop-blur"
+                className="inline-flex h-12 items-center justify-center rounded-full border border-white/30 bg-white/10 px-8 text-sm font-bold text-white hover:bg-white/20 transition-all backdrop-blur hover:scale-[1.02] active:scale-[0.98]"
               >
                 Explore
               </Link>
@@ -156,12 +156,12 @@ export default function HomeHero({
                       Explore
                     </Link>
                   </div>
-                  <h4 className="mt-5 text-lg font-semibold text-zinc-950">
+            <h4 className="mt-5 text-lg font-bold text-zinc-950">
                     Personalized care
                     <br />
                     and demand
                   </h4>
-                  <p className="mt-2 text-sm text-zinc-600">
+                  <p className="mt-2 text-sm text-zinc-800 font-medium">
                     From daily wellness to advanced health insights we support.
                   </p>
 

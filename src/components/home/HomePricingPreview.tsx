@@ -73,13 +73,13 @@ export default function HomePricingPreview() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.35, ease: "easeOut", delay: 0.05 }}
-          className="text-base text-zinc-600"
+          className="text-base text-zinc-800 font-medium"
         >
           Flexible options to suit your health monitoring needs.
         </motion.p>
       </div>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
         {plans.map((p, idx) => (
           <motion.div
             key={p.name}
@@ -89,19 +89,19 @@ export default function HomePricingPreview() {
             transition={{ duration: 0.35, ease: "easeOut", delay: idx * 0.05 }}
             className="rounded-[40px] bg-[#f0f5f6] overflow-hidden"
           >
-            <div className="p-8 sm:p-10">
+            <div className="p-6 sm:p-8 lg:p-10">
               <div className="flex items-start justify-between gap-4 border-b border-zinc-950/10 pb-6">
                 <div>
-                  <h4 className="text-lg font-bold text-zinc-950">{p.name}</h4>
+                  <h4 className="text-xl font-extrabold text-zinc-950">{p.name}</h4>
                 </div>
                 {p.badge ? (
-                  <div className="rounded-full bg-[#ffce8a] px-4 py-2 text-xs font-semibold text-zinc-950">
+                  <div className="rounded-full bg-[#ffce8a] px-4 py-2 text-xs font-bold text-zinc-950">
                     {p.badge}
                   </div>
                 ) : null}
               </div>
 
-              <p className="mt-5 text-sm leading-7 text-zinc-600">{p.description}</p>
+              <p className="mt-5 text-sm leading-7 text-zinc-800 font-medium">{p.description}</p>
 
               <div className="mt-8 flex items-end gap-2">
                 <div className="text-5xl font-semibold tracking-tight text-zinc-950">
@@ -118,7 +118,7 @@ export default function HomePricingPreview() {
                   {p.features.map((f, i) => (
                     <span
                       key={f + i}
-                      className="inline-flex items-center rounded-full bg-white px-4 py-2 text-xs font-semibold text-zinc-700"
+                      className="inline-flex items-center rounded-full bg-white px-4 py-2 text-xs font-bold text-zinc-800 shadow-sm ring-1 ring-black/5"
                     >
                       {f}
                     </span>
@@ -128,7 +128,7 @@ export default function HomePricingPreview() {
 
               <Link
                 href={p.href}
-                className="mt-8 inline-flex w-full h-12 items-center justify-center rounded-full bg-zinc-950 px-6 text-sm font-semibold text-white hover:bg-zinc-900 transition-colors"
+                className="mt-8 inline-flex w-full h-12 items-center justify-center rounded-full bg-zinc-950 px-6 text-sm font-bold text-white hover:bg-zinc-900 transition-all hover:scale-[1.01] active:scale-[0.99]"
               >
                 Get Started For Free
               </Link>

@@ -15,7 +15,7 @@ export default function FeaturesHero({
   title = "Explore our health monitoring features",
   description =
     "Discover powerful features that help you monitor and manage your health effortlessly",
-  ctaLabel = "Book Your Appoinment",
+  ctaLabel = "Book Your Appointment",
   ctaHref = "/appointment",
 }: Props) {
   return (
@@ -30,13 +30,13 @@ export default function FeaturesHero({
           <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight text-zinc-950">
             {title}
           </h1>
-          <p className="mt-4 max-w-md text-base leading-7 text-zinc-600">
+          <p className="mt-4 max-w-md text-base sm:text-lg leading-7 text-zinc-800 font-medium">
             {description}
           </p>
           <div className="mt-8">
             <Link
               href={ctaHref}
-              className="inline-flex h-12 items-center justify-center rounded-full border border-zinc-950/20 bg-white px-6 text-sm font-semibold text-zinc-950 hover:bg-zinc-50 transition-colors"
+              className="inline-flex h-12 items-center justify-center rounded-full bg-zinc-950 px-8 text-sm font-bold text-white shadow-sm hover:bg-zinc-800 transition-colors"
             >
               {ctaLabel}
             </Link>
@@ -79,10 +79,10 @@ export default function FeaturesHero({
                 </Link>
               </div>
 
-              <h4 className="mt-4 text-lg font-semibold text-zinc-950">
+              <h4 className="mt-4 text-lg font-bold text-zinc-950">
                 Health Monitoring Matters
               </h4>
-              <p className="mt-2 text-sm leading-7 text-zinc-600">
+              <p className="mt-2 text-sm leading-7 text-zinc-800 font-medium">
                 Studies show that proactive health tracking can reduce chronic health risks by
                 up to
               </p>
